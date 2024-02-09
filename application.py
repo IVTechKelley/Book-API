@@ -7,9 +7,10 @@ Description: A simple Flask API for managing books with SQLite database.
 
 How to Use:
     1. Install flask, python-dotenv, requests, and flask-sqlalchemy
-    2. In the terminal, enter > flask init-db
-    3. Run the program
-    4. Use the terminal or a system like Postman to add or delete entries in the database.
+    2. Ensure the .flaskenv file is in the same directory as the application
+    3. In the terminal, enter > flask init-db
+    4. Run the program
+    5. Use the terminal or a system like Postman to add or delete entries in the database.
 """
 
 from flask import Flask, jsonify, request
